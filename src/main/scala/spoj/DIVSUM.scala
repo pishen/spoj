@@ -2,7 +2,7 @@ package spoj
 
 import scala.io.StdIn
 
-object DivisorSummation extends App {
+object DIVSUM extends App {
   val num = StdIn.readLine().toInt
   (1 to num).foreach { _ =>
     val input = StdIn.readLine().toInt
